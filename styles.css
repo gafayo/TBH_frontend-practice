@@ -151,6 +151,7 @@
 
  .plans-container{
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 1rem;
   position: relative;
@@ -165,7 +166,7 @@
  .monthly-promotion{
   position: absolute;
   inset-block-start: -2rem;
-  inset-inline-end: 1rem;
+  inset-inline-end: 0.5rem;
  }
 
  .plans-title{
@@ -271,16 +272,25 @@
 
   /* plans and price */
   .plans-and-pricing{
+    width: 100%;
     grid-template-columns: 1fr;
     gap: 3rem;
   }
   
   .plans-title{
-  margin-inline-start: -3rem;
+  margin-inline-start: 0;
   }
 
   .plans-container{
-    margin-inline-start: 3rem;
+    justify-content: space-around;
+    width: 80%;
+    margin-inline-start: 5rem;
+    /* border: 2px solid green; */
+  }
+
+  .monthly-promotion{
+    padding-block-start: 0.2rem;
+    padding-inline-start: 8.5rem;
   }
 
   .btns-container{
