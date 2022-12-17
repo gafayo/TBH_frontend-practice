@@ -266,10 +266,14 @@
   }
 
   /* plans and price (area of switch) statrs from here */
+  .hero-container{
+    padding-block-start: 2rem;
+  }
   .plans-and-pricing{
     width: 100%;
     grid-template-columns: 1fr;
     gap: 3rem;
+    padding-inline-start: 1rem;
   }
   
   .plans-title{
