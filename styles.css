@@ -93,9 +93,12 @@
  }
 
  .plans-and-pricing{
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
+  width: 50%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  /* border: 2px solid green; */
  }
 
  /*!switch styles starts from here */
@@ -147,11 +150,11 @@
 
 
  .plans-container{
-  padding-inline: 3rem;
   display: flex;
   align-items: center;
   gap: 1rem;
   position: relative;
+  /* border: 2px solid maroon; */
  }
  
  span{
@@ -264,6 +267,20 @@
 
   .navbar-links.active{
      display: flex;
+  }
+
+  /* plans and price */
+  .plans-and-pricing{
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  
+  .plans-title{
+  margin-inline-start: -3rem;
+  }
+
+  .plans-container{
+    margin-inline-start: 3rem;
   }
 
   .btns-container{
