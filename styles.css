@@ -89,7 +89,7 @@
  /*? nav-bar ends from here */
 
  .hero-container{
-  padding-block-start: 8rem;
+  padding-block-start: 5rem;
  }
 
  .plans-and-pricing{
@@ -138,11 +138,6 @@
  .checkbox{
   display: none;
  }
-
- input:checked + .switch{
-  background: var(--yellow);
- }
-
  input:checked + .switch:after{
   transform: translateX(25px);
 }
@@ -270,7 +265,7 @@
      display: flex;
   }
 
-  /* plans and price */
+  /* plans and price (area of switch) statrs from here */
   .plans-and-pricing{
     width: 100%;
     grid-template-columns: 1fr;
@@ -292,6 +287,7 @@
     padding-block-start: 0.2rem;
     padding-inline-start: 8.5rem;
   }
+  /* plans and price (area of switch) ends here */
 
   .btns-container{
    display: flex;
