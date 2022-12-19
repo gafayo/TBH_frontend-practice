@@ -175,7 +175,7 @@
 
  .columns-container{
   width: 100%;
-  padding: 2rem 3rem;
+  padding: 2em;
  }
  .columns{
   border: 1px solid var(--black);
@@ -227,6 +227,44 @@
   display: flex;
   justify-content: center;
   margin-top: 2rem;
+ }
+ 
+
+ .charges{
+  clear: both;
+  padding: 2em;
+ }
+
+ .charges__title{
+  text-align: center;
+  text-transform: capitalize;
+  padding-block-end: 1em;
+  color: var(--black);
+  font-weight: bolder;
+
+ }
+ 
+
+ .container__charges{
+  width: 92%;
+  margin: 0 auto;
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--black);
+  margin-block-end: 2em;
+  box-shadow: 5px -2px 10px var(--black);
+ }
+ 
+
+ .amount__charges{
+  font-weight: bolder;
+  text-transform: capitalize;
+ }
+ 
+ .amount__amounts{
+  font-size: 2.5rem;
  }
 
  /*! media queries starts from here */
@@ -325,6 +363,14 @@
   .columns{
     width: 100%;
     display: block;
+  }
+
+
+  /* charges-section stars from here */
+  .container__charges{
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 1em;
   }
 }
 
