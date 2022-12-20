@@ -270,6 +270,41 @@
   font-size: 2.5rem;
  }
 
+ /* quote__container starts from here */
+ .quote-container{
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em;
+  background: #cef0e8;
+  border-radius: 3px;
+  margin-block-start: 3em;
+ }
+
+ .btn__quote{
+  text-decoration: none;
+  padding: 0.75em 2em;
+  background: var(--green);
+  color: #fff;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bolder;
+   
+ }
+
+ .quote__text{
+  font-size: 2.5rem;
+  width: 60%;
+  color: var(--black);
+ }
+
+ .span__quote{
+  text-transform: lowercase;
+  color: var(--green);
+ }
+
  /*! media queries starts from here */
  /* 1. mobile nav starts from here */
  @media (max-width: 786px){
@@ -378,7 +413,13 @@
     align-items: flex-start;
     gap: 1em;
   }
-}
+
+  /* quote-container */
+  .quote-container{
+    gap: 2em;
+    flex-direction: column;
+  }
+ 
 
 /* media queries ends here */
 
