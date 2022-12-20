@@ -418,6 +418,7 @@
   .quote-container{
     gap: 2em;
     flex-direction: column;
+    width: 90%;
   }
  
 
