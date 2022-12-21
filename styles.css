@@ -475,7 +475,11 @@
   }
 
   .faq__row{
-    width: 90%;
+    width: 95%;
+  }
+
+  .faq__para{
+    text-align: start;
   }
  
  }
