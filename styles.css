@@ -322,7 +322,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 2em;
   box-shadow: 2px 2px 5px var(--yellow) ;
  }
 
@@ -348,9 +347,9 @@
 
  .faq__content{
   width: 80%;
-  max-width: 600px;
+  max-width: 1000px;
   text-align: center;
-  /* border: 2px solid brown; */
+  /* border: 2px solid yellow; */
  }
  .faq__entity{
   font-weight: 700;
@@ -472,6 +471,10 @@
   .quote-container{
     gap: 2em;
     flex-direction: column;
+    width: 90%;
+  }
+
+  .faq__row{
     width: 90%;
   }
  
