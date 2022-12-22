@@ -10,6 +10,6 @@
  
 
 //  faq starts from here
-handles.forEach(handle => handle.addEventListener('click', function(){
-   paras.forEach(para => para.classList.toggle('open'))
-}));
+// handles.forEach(handle => handle.addEventListener('click', function(){
+//    paras.forEach(para => para.classList.toggle('open'));
+// }));
