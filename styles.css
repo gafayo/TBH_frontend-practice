@@ -352,6 +352,35 @@ input:checked + .answer{
   display: block;
 }
 
+/* footer */
+.footer{
+  background: var(--black);
+  color: var(--white);
+  padding-block-start: 2em;
+}
+.row-footer{
+  width: 80%;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+}
+
+.footer-header{
+  color: var(--green);
+  text-transform: capitalize;
+}
+
+.row-footer .column{
+  margin-block-end: 2em;
+  list-style-type: none;
+}
+
+.row-footer .column li{
+  list-style-type: none;
+  padding-block: 0.2em;
+  text-transform: capitalize;
+  padding-inline-start: 0.7em;
+}
+
  /*! media queries starts from here */
  /* 1. mobile nav starts from here */
  @media (max-width: 786px){
@@ -476,5 +505,13 @@ input:checked + .answer{
     text-align: start;
   }
  
+ }
+
+ @media (min-width: 800px){
+  .row-footer{
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+  }
  }
 /* media queries ends here */
